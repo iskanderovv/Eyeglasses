@@ -1,0 +1,19 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 0%), url("../images/woman-8475959.jpg") top / cover;
+}
+
+.produire {
+    background: url('../images/IMAGE-12.png') center / cover;
+}
+
+.les {
+    background: url('../images/IMAGE-13.png') center / cover;
+}
+
+.rendez {
+    background: url('../images/IMAGE-14.png') center / cover;
+}
