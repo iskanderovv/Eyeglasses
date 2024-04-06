@@ -17,3 +17,111 @@
 .rendez {
     background: url('../images/IMAGE-14.png') center / cover;
 }
+
+.prex__content,
+.expertise__img,
+.vous__content,
+.les {
+    animation: left 1s ease-in-out .3s;
+}
+
+.prex__img,
+.expirtese__content,
+.vous__img,
+.rendez {
+    animation: right 1s ease-in-out .3s;
+}
+
+.expertise__img,
+.expirtese__content {
+    animation-delay: .5s;
+}
+
+.vous__content,
+.vous__img {
+    animation-delay: .7s;
+}
+
+.les,
+.rendez {
+    animation-delay: .9s;
+}
+
+
+
+.opticiens__cards {
+    animation: card 1s ease-in-out .2s;
+}
+
+.opticiens__card:first-child {
+    animation: card 1s ease-in-out .3s;
+}
+
+.opticiens__card:nth-child(2) {
+    animation: card 1s ease-in-out .4s;
+}
+
+.opticiens__card:nth-child(3) {
+    animation: card 1s ease-in-out .5s;
+}
+
+.opticiens__card:nth-child(4) {
+    animation: card 1s ease-in-out .6s;
+}
+
+.opticiens__card:nth-child(5) {
+    animation: card 1s ease-in-out .7s;
+}
+
+.opticiens__card:nth-child(6) {
+    animation: card 1s ease-in-out .8s;
+}
+
+.opticiens__card:nth-child(7) {
+    animation: card 1s ease-in-out .9s;
+}
+
+.opticiens__card:nth-child(8) {
+    animation: card 1s ease-in-out 1s;
+}
+
+
+
+
+
+@keyframes left {
+    0% {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes right {
+    0% {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes card {
+    0% {
+        opacity: 0;
+        transform: scale(.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
